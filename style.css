@@ -96,7 +96,36 @@
     font-size: 20px;
     color: blue
   }
+
+  /* Fixed Header Styling */
+.header {
+    position: fixed; /* Makes the header stay at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffe0b2;
+    color: #5d4037;
+    padding: 20px;
+    border-radius: 0 0 15px 15px; /* Rounded corners at the bottom */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensures the header stays on top of other elements */
+  }
   
+  /* Header Title Styling */
+  .header h1 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px #fff;
+  }
+  
+  /* Subtitle Styling */
+  .header .subtitle {
+    font-size: 12px;
+    font-style: italic;
+    color: #6d4c41;
+  }
   /* Responsive adjustments for smaller screens */
   @media (max-width: 400px) {
     input[type="text"], button {
