@@ -3,6 +3,8 @@ let userAnswers = [];
 let currentQuestionIndex = 0;
 let correctAnswers = 0;
 let username = "";
+let startTime;  // Store the quiz start time
+let endTime;    // Store the quiz end time
 let timer;  // Declare timer globally to properly clear intervals
 
 async function loadQuestions() {
@@ -47,6 +49,7 @@ function showQuestion() {
 
 function startTimer() {
   let timeLeft = 10;
+  startTime = new Date();  // Record the start time
   document.getElementById('timer').innerText = timeLeft;
 
   // Clear any existing timer before starting a new one
@@ -89,10 +92,14 @@ function moveToNextQuestion() {
 }
 
 function showEndPage() {
+    endTime = new Date();  // Record the end time
+let totalTime = Math.floor((endTime - startTime) / 1000);  // Calculate time in seconds
+
   const container = document.getElementById('container');
   container.innerHTML = `
     <h1>Quiz Completed!</h1>
-    <p class="last-uw"><b>${username}</b>,</p> <p class="last-w">you answered <br><b> ${correctAnswers}</b> out of ${questions.length} <br> questions correctly.</p>
+    <p class="last-uw"><b>${username}</b>,</p> <br> <p class="last-w">you answered <br><b> ${correctAnswers}</b> out of ${questions.length} <br> questions correctly.</p>
+     <p>Total time taken: ${totalTime} seconds</p>
     <button onclick="showDetailedResults()">Check Answers</button>
   `;
 }
