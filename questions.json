@@ -1,0 +1,78 @@
+[
+    {
+      "question": "What is the baby name of a lion?",
+      "choices": ["Pup", "Cub", "Joey", "Calf"],
+      "answer": "Cub"
+    },
+    {
+      "question": "What is the baby name of a giraffe?",
+      "choices": ["Calf", "Foal", "Chick", "Fawn"],
+      "answer": "Calf"
+    },
+    {
+      "question": "What is the baby name of a kangaroo?",
+      "choices": ["Joey", "Cub", "Kid", "Pup"],
+      "answer": "Joey"
+    },
+    {
+      "question": "What is the baby name of a bear?",
+      "choices": ["Cub", "Chick", "Lamb", "Calf"],
+      "answer": "Cub"
+    },
+    {
+      "question": "What is the baby name of a deer?",
+      "choices": ["Foal", "Fawn", "Calf", "Pup"],
+      "answer": "Fawn"
+    },
+    {
+      "question": "What is the baby name of a whale?",
+      "choices": ["Calf", "Cub", "Chick", "Pup"],
+      "answer": "Calf"
+    },
+    {
+      "question": "What is the baby name of a goat?",
+      "choices": ["Kid", "Pup", "Lamb", "Joey"],
+      "answer": "Kid"
+    },
+    {
+      "question": "What is the baby name of a sheep?",
+      "choices": ["Lamb", "Fawn", "Cub", "Chick"],
+      "answer": "Lamb"
+    },
+    {
+      "question": "What is the baby name of a dog?",
+      "choices": ["Kitten", "Cub", "Puppy", "Chick"],
+      "answer": "Puppy"
+    },
+    {
+      "question": "What is the baby name of a cat?",
+      "choices": ["Kid", "Kitten", "Cub", "Pup"],
+      "answer": "Kitten"
+    },
+    {
+      "question": "What is the baby name of a duck?",
+      "choices": ["Duckling", "Kid", "Chick", "Foal"],
+      "answer": "Duckling"
+    },
+    {
+      "question": "What is the baby name of a horse?",
+      "choices": ["Foal", "Fawn", "Calf", "Lamb"],
+      "answer": "Foal"
+    },
+    {
+      "question": "What is the baby name of a cow?",
+      "choices": ["Cub", "Pup", "Calf", "Kid"],
+      "answer": "Calf"
+    },
+    {
+      "question": "What is the baby name of a pig?",
+      "choices": ["Piglet", "Cub", "Joey", "Fawn"],
+      "answer": "Piglet"
+    },
+    {
+      "question": "What is the baby name of a wolf?",
+      "choices": ["Pup", "Kid", "Lamb", "Foal"],
+      "answer": "Pup"
+    }
+  ]
+  

@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Main container styling */
+  #container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Input styling */
+  .input-group {
+    margin: 15px 0;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #42a5f5;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #42a5f5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.1s;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1e88e5;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  /* Result box styling */
+  .result {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .correct {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .incorrect {
+    color: #f44336;
+    font-weight: bold;
+  }
+
+  .last-uw{
+    font-size: 24px;
+    color: rgb(51, 51, 209)
+  }
+  .last-w{
+    font-size: 20px;
+    color: blue
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 400px) {
+    input[type="text"], button {
+      font-size: 16px;
+      padding: 12px;
+    }
+  }
+  
